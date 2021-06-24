@@ -56,6 +56,7 @@ body{
   font-size: 20px;
   line-height: 22px;
   font-weight: 500;
+  overflow-x: hidden;
 }
 
 .container{
@@ -360,7 +361,7 @@ body{
   height: 640px;
   background-repeat: no-repeat;
   background-image: url('../img/toti.svg');
-  left: 840px;
+  left: calc(50% + 221px);
   top: 574px;
   background-size: contain;
 }
@@ -506,6 +507,7 @@ body{
 .clinic__faq--item7{
   margin-top: 18px;
   margin-bottom: 270px;
+  opacity: 0.5;
 }
 
 .clinic__faq--icon-heading{

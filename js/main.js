@@ -9,3 +9,13 @@ elsOpenModalButton.addEventListener('click', function(){
 elCloseModalButton.addEventListener('click', function(){
 elModal.classList.remove('modal-open')
 })
+
+var elsAnsverBtn = document.querySelectorAll('.btn');
+var elsAnsversItem = document.querySelectorAll('.faq__middle--tex');
+
+
+elsAnsverBtn.forEach(function (toggle) {
+  toggle.addEventListener('click', function (){
+    toggle.closest('faq__middle--tex').classList.toggle('ansvers--open')
+  })
+})
