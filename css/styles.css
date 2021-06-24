@@ -317,8 +317,8 @@ body{
   height: 468px;
   background-image: url("../img/cat.svg");
   background-repeat: no-repeat;
-  top: 26px;
-  left: calc(50% + 626px);
+  top: 41px;
+  left: calc(50% + 514px);
 }
 
 .hero__heading{
@@ -345,189 +345,114 @@ body{
 }
 /* vet__clinic--faq */
 
-
-.vet-clinic__conatnt{
+.faq__wrapper{
   position: relative;
 }
 
-.vet-clinic__conatnt::after{
-  content: '';
+.faq__wrapper::after{
   position: absolute;
+  content: '';
   width: 654px;
   height: 640px;
   background-repeat: no-repeat;
-  background-image: url('../img/toti.svg');
-  left: calc(50% + 221px);
-  top: 574px;
-  background-size: contain;
+  background-image: url("../img/toti.svg");
+  left: calc(50% + 170px);
+  top: 673px;
 }
 
-.clinic__faq--item{
-  width: 752px;
-  background: #FFFFFF;
-  border: 1px solid #F3F3F3;
-  box-sizing: border-box;
-  border-radius: 5px;
-  padding: 31px 112px 32px 63px;
-  margin-left: 94px;
-}
 
-.clinic__faq--icon{
+.faq__contant {
   list-style: none;
+  width: 752px;
+  background-color: #fff;
+  padding: 31px 41px 75px 63px;
+  margin-top: 18px;
 }
 
-.faq__icon--item{
+.faq__contant3{
+  opacity: 0.5;
+}
+
+.faq__contant4{
+  opacity: 0.5;
+  margin-bottom: 270px;
+}
+
+.faq__contant--header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  margin-left: 30px;
+
 }
 
-.btn{
-  display: block;
-  border: none;
-  width: 8px;
-  height: 16px;
-  margin-right: -58px;
-  background-image: url('../img/up.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-color: transparent;
-  cursor: pointer;
-  margin-top: -7px;
-}
-
-.wrapper__active .btn{
-  display: block;
-  border: none;
-  width: 8px;
-  height: 16px;
-  margin-right: -58px;
-  background-image: url('../img/bottom.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-color: transparent;
-  cursor: pointer;
-  margin-top: -7px;
-}
-
-
-.btn2{
-  margin-top: -29px;
-  margin-right: -92px;
-  position: relative;
-}
-
-.btn3{
-  margin-top: -29px;
-  margin-right: -92px;
-}
-
-.clock{
-  display: block;
-  border: none;
-  width: 19px;
-  height: 19px;
-  margin-right: -58px;
-  background-image: url('../img/clock.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-color: transparent;
-  cursor: pointer;
-  margin-top: -7px;
-}
-
-.clock{
-  margin-top: -29px;
-  margin-right: -60px;
-}
-
-.faq__date--time{
-  font-weight: normal;
+.faq--header__time {
   font-size: 14px;
   line-height: 22px;
-  margin-left: 38px;
-  position: relative;
-}
-
-.faq__date--time::before{
-  content: '';
-  position: absolute;
-  width: 27px;
-  height: 28px;
-  background-repeat: no-repeat;
-  background-image: url("../img/pet.svg");
-  transform: rotate(112.44deg);
-  top: -8px;
-  left: -36px;
-}
-
-.clinic__faq--link{
-  padding: 0;
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 22px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-left: 28px;
-  color: #78C0DE;
-}
-
-.faq__icon--item{
-  list-style: none;
-}
-
-.faq__icon--item2{
-  width: 539px;
-}
-
-.clinic__faq--item2{
-  margin-top: 18px;
-}
-
-.clinic__faq--item3{
-  opacity: 0.5;
-  margin-top: 18px;
-}
-
-.clinic__faq--item5{
-  margin-top: 18px;
-}
-
-.clinic__faq--item6{
-  margin-top: 18px;
-}
-
-.clinic__faq--item7{
-  margin-top: 18px;
-  margin-bottom: 270px;
-  opacity: 0.5;
-}
-
-.clinic__faq--icon-heading{
-  margin-top: 12px;
-  margin-bottom: 23px;
-  font-size: 20px;
   display: flex;
   align-items: center;
   color: #333333;
 }
 
-.faq__middle{
-  list-style: none;
-  width: 577px;
-  display: none; 
+.faq--header__link {
+  font-size: 12px;
+  line-height: 22px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #78C0DE;
+  margin-left: 28px;
 }
 
-.faq__middle--text{
-  font-weight: normal;
+.faq__contant--middle {
+  display: flex;
+}
+
+.faq__middle--heading {
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-top: 12px;
+  width: 539px;
+}
+
+.faq__middle--button {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.middle--button {
+  display: block;
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 56px;
+  background-image: url("../img/bottom.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+.middle--text {
   font-size: 16px;
   line-height: 20px;
+  width: 624px;
   color: #949494;
+  margin-top: 24px;
+  display: none;
 }
 
+
+.open-model .middle--text  {
+  display: block;
+}
 
 /* FOOTER */
 
