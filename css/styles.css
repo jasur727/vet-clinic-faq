@@ -440,6 +440,23 @@ body{
   margin-top: 13px;
 }
 
+.clock--button {
+  display: block;
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 56px;
+  background-image: url("../img/clock.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+
+
 .middle--text {
   font-size: 16px;
   line-height: 20px;
