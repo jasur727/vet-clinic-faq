@@ -345,12 +345,8 @@ body{
 }
 /* vet__clinic--faq */
 
-.vet__clinic--faq{
-  /* position: relative; */
-}
 
 .vet-clinic__conatnt{
-  /* overflow: hidden; */
   position: relative;
 }
 
@@ -576,6 +572,7 @@ body{
   height: 100%;
   left: 0;
   top: 0;
+  overflow: auto;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
